@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CALCULATE REAL LOVE</string>
+    <string name="email">lucky03600@gmail.com</string>
+
+
+    <!-- creation of string -->
+
+    <string name="para">
+        This app is just for fun. In this app, you need to fill the two texts and press the button(i.e. CALCULATE REAL LOVE). It will give you the percentage of Love.
+    </string>
+
+    <string name="para1">
+        Feel free to write any name. As the data are not been collected.
+    </string>
+</resources>

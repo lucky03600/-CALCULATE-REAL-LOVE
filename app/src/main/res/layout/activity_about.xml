@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient2"
+    tools:context=".AboutActivity">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/mainpara"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/para"
+        android:textSize="23sp"
+        android:textStyle="italic"
+        android:padding="10dp"
+        android:textColor="@android:color/white"
+        android:typeface="serif"/>
+
+
+    <TextView
+        android:id="@+id/mainpara1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mainpara"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:text="@string/para1"
+        android:textColor="@android:color/white"
+        android:textSize="23sp"
+
+        android:textStyle="italic"
+        android:typeface="serif" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mainpara1"
+        android:layout_marginTop="15dp"
+        android:text="Email:-"
+        android:textSize="27sp"
+        android:textStyle="bold"
+
+
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:text="@string/email"
+        android:textSize="25sp"
+        android:autoLink="email"
+        android:textStyle="italic"
+        />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email"
+        android:layout_marginTop="17dp"
+        android:text="Privacy Policy:-"
+        android:textSize="27sp"
+
+
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/privacypolicy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="https://sites.google.com/view/calculate-real-love"
+        android:textSize="25sp"
+        android:autoLink="web"
+        android:textStyle="italic"
+
+        android:layout_below="@+id/textView1"/>
+
+
+
+</RelativeLayout>

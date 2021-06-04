@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/backcolor"
+    android:id="@+id/layout">
+
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textStyle="italic"
+
+        android:text="Enter Your Name :"
+        android:textSize="30sp"
+        android:fontFamily="serif"
+        android:textColor="@android:color/white"
+
+
+        />
+
+    <EditText
+        android:id="@+id/e1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t1"
+        android:hint="eg.Peter"
+        android:lines="1"
+        android:textColor="@android:color/black"
+
+
+        android:textSize="30sp"
+        android:fontFamily="serif-monospace"
+        android:textStyle="italic"
+        />
+
+    <TextView
+        android:id="@+id/t2"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/e1"
+        android:layout_marginTop="35dp"
+        android:fontFamily="serif"
+
+        android:textStyle="italic"
+        android:textColor="@android:color/white"
+
+
+        android:text="Enter Your Lover Name :"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/e2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t2"
+        android:hint="eg.Emma"
+        android:lines="1"
+
+        android:textSize="30sp"
+        android:fontFamily="serif-monospace"
+        android:textStyle="italic"
+        android:textColor="@android:color/black"
+
+        />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="325dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/e2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+
+        android:onClick="calculateRealLove"
+
+        android:textColor="@android:color/black"
+
+        android:text="Calculate Real Love"
+        android:textSize="25sp" />
+
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:layout_below="@+id/b1"
+        app:srcCompat="@drawable/heart"
+
+
+
+
+        />
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        android:text=""
+        android:textSize="45sp"
+        android:textColor="@android:color/background_light"
+        android:typeface="monospace"
+
+        />
+
+
+
+
+</RelativeLayout>
